@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>Registrarse</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+  <ion-card-header>
+    <ion-card-title>Registrarse como:</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    
+    <ion-radio-group>
+     
+      <ion-item>
+        <ion-radio>Cliente</ion-radio>
+      </ion-item>
+      
+      <ion-item>
+        <ion-radio>Usuario</ion-radio>
+      </ion-item>
+    
+    </ion-radio-group>
+  </ion-card-content>
+
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Datos Personales:</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-input label="Nombre:" type="text" labelPlacement="floating" placeholder="Ingrese nombre"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="DNI/LC/LE:" type="text" labelPlacement="floating" placeholder="Ingrese numero de DNI/LC/LE"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Email:" type="email" labelPlacement="floating" placeholder="Ingrese email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Contraseña:" type="password" labelPlacement="floating" placeholder="Ingrese contraseña"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Repetir Contraseña:" type="password" labelPlacement="floating" placeholder="Repetir contraseña"></ion-input>
+      </ion-item>
+    </ion-card-content>
+    </ion-card>
+</ion-content>
